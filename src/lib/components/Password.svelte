@@ -104,7 +104,7 @@
 
 
 {#if passcode.length < 6}
-    <div class="background z-10 absolute h-full overflow-hidden w-full" transition:slide={{ duration: 200, axis: "y" }}>
+    <div class="background z-10 absolute h-[100lvh] overflow-hidden w-full" transition:slide={{ duration: 200, axis: "y" }}>
         <div class="flex flex-col items-center justify-between h-screen text-white">
 
             <div class="mt-12 mb-8 h-[1rem] w-[1rem]">
