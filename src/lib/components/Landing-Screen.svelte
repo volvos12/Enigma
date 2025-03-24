@@ -32,7 +32,7 @@
     <div class="h-auto flex w-full text-gray-400 text-wrap absolute bottom-[15%] left-0">
         {#each AllUniqueFirstLetters as letter}
             <button
-                    class="text-gray-600 text-xl m-2"
+                    class="text-gray-600 text-2xl m-5"
                     on:click={() => filterByLetter(letter)}
             >
                 {letter}
