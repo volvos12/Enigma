@@ -28,7 +28,7 @@
 </script>
 
 <div class="background h-[100lvh] w-full flex flex-col overflow-hidden relative z-0 ">
-    <div class="h-auto w-full text-gray-400 text-wrap absolute top-0 left-0 ">{filteredListValue}</div>
+    <div class="h-auto w-full text-gray-400 text-wrap absolute top-[7%] left-[5%] ">{filteredListValue}</div>
     <div class="h-auto flex w-full text-gray-400 text-wrap absolute bottom-[15%] left-0">
         {#each AllUniqueFirstLetters as letter}
             <button
