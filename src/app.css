@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 html, body {
-    margin-top: -20px;
+    margin-top: 0;
     height: 100lvh !important;
     background: black;
     padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
